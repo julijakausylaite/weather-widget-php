@@ -86,7 +86,7 @@
 						$weekIcon=$weekWeatherArr[0]->icon;
 						// dump($weekIcon);
 					?>
-						<div class="one-day row col-12 col-sm bgLight">
+						<div class="one-day row col-12 col-sm bgLight bgDarkDay">
 							<div class="day-name col-3 col-sm-12"><?php echo $dayName; ?></div>
 							<div class="col-3 col-sm-12"><img class="weather-icon" src="http://openweathermap.org/img/wn/<?php echo $weekIcon; ?>@2x.png" alt="weather"></div>
 							<div class="row weather-temperature row col-6 col-sm-12">
